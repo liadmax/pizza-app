@@ -1,6 +1,4 @@
 import React from 'react';
-import { ProductData, ProductDataTwo } from './Data';
-
 import {
   ProductsContainer,
   ProductWrapper,
@@ -11,50 +9,28 @@ import {
   ProductInfo,
   ProductDesc,
   ProductPrice,
-  ProductButton,
-  ProductSweet
+  ProductButton
 } from './ProductsElements';
 
-
-
-
-
-const Products = ({ heading }) => {
+const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
-        {ProductData.map((Product, index) =>{
-            return(
-                <ProductCard key={index}>
-                    <ProductImg src={Product.img} alt={Product.alt} />
-                    <ProductInfo>
-                        <ProductTitle>{Product.name}</ProductTitle>
-                        <ProductDesc>{Product.Desc}</ProductDesc>
-                        <ProductPrice>{Product.price}</ProductPrice>
-                        <ProductButton>{Product.button}</ProductButton>
-                    </ProductInfo>
-                </ProductCard>
-                
-            )
+        {data.map((product, index) => {
+          return (
+            <ProductCard key={index}>
+              <ProductImg src={product.img} alt={product.alt} />
+              <ProductInfo>
+                <ProductTitle>{product.name}</ProductTitle>
+                <ProductDesc>{product.desc}</ProductDesc>
+                <ProductPrice>{product.price}</ProductPrice>
+                <ProductButton>{product.button}</ProductButton>
+              </ProductInfo>
+            </ProductCard>
+          );
         })}
-        </ProductWrapper>
-        <ProductSweet>
-          {ProductDataTwo.map((Product, index) =>{
-            return(
-                <ProductCard key={index}>
-                    <ProductImg src={Product.img} alt={Product.alt} />
-                    <ProductInfo>
-                        <ProductTitle>{Product.name}</ProductTitle>
-                        <ProductDesc>{Product.Desc}</ProductDesc>
-                        <ProductPrice>{Product.price}</ProductPrice>
-                        <ProductButton>{Product.button}</ProductButton>
-                    </ProductInfo>
-                </ProductCard>
-                
-            )
-        })}
-      </ProductSweet>
+      </ProductWrapper>
     </ProductsContainer>
   );
 };

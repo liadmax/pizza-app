@@ -15,12 +15,6 @@ import styled from "styled-components";
  justify-content: center;
 margin: 0 auto;
 `
-export const ProductSweet =styled.div`
-display: flex;
- flex-wrap: wrap;
- justify-content: center;
-margin: 0 auto;
-`
 
 export const ProductCard = styled.div`
 margin: 0 2rem;
