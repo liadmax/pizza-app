@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/pizza-app/static/js/main.b6009e08.js",
+    "static/js/787.62df0f44.chunk.js": "/pizza-app/static/js/787.62df0f44.chunk.js",
+    "static/media/ImgBg.jpg": "/pizza-app/static/media/ImgBg.5982ef8553162e9fe0e4.jpg",
+    "static/media/product-1.jpg": "/pizza-app/static/media/product-1.b8762f67eb7ef5111731.jpg",
+    "static/media/product-2.jpg": "/pizza-app/static/media/product-2.468306c63ee921d7fdfe.jpg",
+    "static/media/product-3.jpg": "/pizza-app/static/media/product-3.7d348dc0350e1c3dc060.jpg",
+    "static/media/featured3.jpg": "/pizza-app/static/media/featured3.0a259148a022b075fa26.jpg",
+    "static/media/sweet-1.jpg": "/pizza-app/static/media/sweet-1.0f50e742b93d8792f9a5.jpg",
+    "static/media/sweet-3.jpg": "/pizza-app/static/media/sweet-3.379912e77fc56a13c508.jpg",
+    "static/media/sweet-2.jpg": "/pizza-app/static/media/sweet-2.23cdbfd1b03769e211d6.jpg",
+    "index.html": "/pizza-app/index.html",
+    "main.b6009e08.js.map": "/pizza-app/static/js/main.b6009e08.js.map",
+    "787.62df0f44.chunk.js.map": "/pizza-app/static/js/787.62df0f44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b6009e08.js"
+  ]
+}
