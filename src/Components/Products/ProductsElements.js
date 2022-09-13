@@ -16,6 +16,7 @@ import styled from "styled-components";
 margin: 0 auto;
 `
 
+
 export const ProductCard = styled.div`
 margin: 0 2rem;
 line-height: 2;

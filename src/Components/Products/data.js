@@ -4,9 +4,9 @@ import product3 from '../../images/product-3.jpg';
 import sweet1 from '../../images/sweet-1.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
-export const productData = [
+export const ProductData = [
   {
-    img:product1,
+    img: product1,
     alt: 'Pizza',
     name: 'Supreme Pizza',
     Desc:
@@ -34,7 +34,7 @@ export const productData = [
   }
 ];
 
-export const productDataTwo = [
+export const ProductDataTwo = [
     
   {
     img: sweet1,

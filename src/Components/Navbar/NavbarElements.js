@@ -9,6 +9,24 @@ export const Nav = styled.nav`
   justify-content: center;
   font-weight: 700;
 `;
+export const PizzaBtn = styled.button`
+position: fixed ;
+left: 6%;
+top: 4%;
+font-size: 1rem;
+padding: 2px 8px;
+border: none;
+background:#e31837;
+color: #fff;
+transition: 0.2 ease-out;
+:hover{
+    background: #ffc500;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #000;
+}
+`;
+
 
 export const NavLink = styled(Link)`
   color: #fff;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './NavbarElements';
-
+import { Nav, NavLink, NavIcon, Bars, PizzaBtn } from './NavbarElements';
+import PopUp from '../PopUp';
 const Navbar = ({ toggle }) => {
   return (
     <>
@@ -10,6 +10,7 @@ const Navbar = ({ toggle }) => {
           <p>Menu</p>
           <Bars />
         </NavIcon>
+        <PizzaBtn onClick={PopUp}>order pizza!</PizzaBtn>
       </Nav>
     </>
   );

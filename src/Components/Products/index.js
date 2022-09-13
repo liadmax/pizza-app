@@ -1,11 +1,11 @@
 import React from 'react';
 import {
+  ProductImg,
   ProductsContainer,
   ProductWrapper,
   ProductsHeading,
   ProductTitle,
   ProductCard,
-  ProductImg,
   ProductInfo,
   ProductDesc,
   ProductPrice,
