@@ -1,5 +1,5 @@
 import React from 'react';
-import { productData, productDataTwo } from './Data';
+import { ProductData, ProductDataTwo } from './Data';
 
 import {
   ProductsContainer,
@@ -24,15 +24,15 @@ const Products = ({ heading }) => {
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
-        {productData.map((product, index) =>{
+        {ProductData.map((Product, index) =>{
             return(
                 <ProductCard key={index}>
-                    <ProductImg src={product.img} alt={product.alt} />
+                    <ProductImg src={Product.img} alt={Product.alt} />
                     <ProductInfo>
-                        <ProductTitle>{product.name}</ProductTitle>
-                        <ProductDesc>{product.Desc}</ProductDesc>
-                        <ProductPrice>{product.price}</ProductPrice>
-                        <ProductButton>{product.button}</ProductButton>
+                        <ProductTitle>{Product.name}</ProductTitle>
+                        <ProductDesc>{Product.Desc}</ProductDesc>
+                        <ProductPrice>{Product.price}</ProductPrice>
+                        <ProductButton>{Product.button}</ProductButton>
                     </ProductInfo>
                 </ProductCard>
                 
@@ -40,15 +40,15 @@ const Products = ({ heading }) => {
         })}
         </ProductWrapper>
         <ProductSweet>
-          {productDataTwo.map((product, index) =>{
+          {ProductDataTwo.map((Product, index) =>{
             return(
                 <ProductCard key={index}>
-                    <ProductImg src={product.img} alt={product.alt} />
+                    <ProductImg src={Product.img} alt={Product.alt} />
                     <ProductInfo>
-                        <ProductTitle>{product.name}</ProductTitle>
-                        <ProductDesc>{product.Desc}</ProductDesc>
-                        <ProductPrice>{product.price}</ProductPrice>
-                        <ProductButton>{product.button}</ProductButton>
+                        <ProductTitle>{Product.name}</ProductTitle>
+                        <ProductDesc>{Product.Desc}</ProductDesc>
+                        <ProductPrice>{Product.price}</ProductPrice>
+                        <ProductButton>{Product.button}</ProductButton>
                     </ProductInfo>
                 </ProductCard>
                 
